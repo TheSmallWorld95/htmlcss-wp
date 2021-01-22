@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 1000px;
+}
+/* CENTRAMENTO VARIE PARTI */
+header,main,footer {
+  width: 80%;
+  margin: 0 auto;
+}
+/* CENTRAMENTO VARIE PARTI */
+/* CLEARFIX */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* CLEARFIX */
+/* ELEMENTI FLOTTANTI */
+div [class^="col-"] {
+  float: left;
+}
+/* ELEMENTI FLOTTANTI */
+
+.logo {
+
+  height: 60px;
+  width: 10%;
+  border-right: 1px solid #C0C0C0;
+  padding-right: 10px;
+
+}
+
+.img1 {
+  width: 100%;
+  height: 500px;
+}
+
+/* UTILITY */
+
+.col-100 {
+  width: 100%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.pb-20  {
+  padding-bottom: 20px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.h25 {
+  height: 25px;
+}
+
+.h50 {
+  height: 50px;
+}
+
+.h200 {
+  height: 200px;
+}
+
+.h300 {
+  height: 300px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.bg-pink {
+  background: #E579E6;
+
+}
+
+.bg-brown {
+  background: #E1D67A;
+
+}
+
+.bg-blue {
+  background: #0186FE;
+
+}
+
+.bg-lightblue {
+  background: #ABCFE7;
+
+}
+
+.bg-purple {
+  background: #8801FE;
+}
+
+.font-grey {
+  color: #C0C0C0;
+}
+
+.nav {
+  display: inline-block;
+  margin: 25px 0 5px;
+  padding-right: 15px;
+}
+
+
+/* UTILITY */
